@@ -1,0 +1,276 @@
+#pluto {
+    position: absolute;
+    border-radius: 50%
+}
+
+#pluto-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 840px;
+    height: 840px;
+    margin-top: -420px;
+    margin-left: -420px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 30s linear infinite;
+     -moz-animation: spin-right 30s linear infinite;
+      -ms-animation: spin-right 30s linear infinite;
+       -o-animation: spin-right 30s linear infinite;
+          animation: spin-right 30s linear infinite;
+}
+
+#neptune {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#neptune-orbit {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 800px;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -400px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 24s linear infinite;
+     -moz-animation: spin-right 24s linear infinite;
+      -ms-animation: spin-right 24s linear infinite;
+       -o-animation: spin-right 24s linear infinite;
+          animation: spin-right 24s linear infinite;
+}
+
+#uranus {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#uranus-orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 750px;
+    height: 750px;
+    margin-top: -375px;
+    margin-left: -375px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 20s linear infinite;
+     -moz-animation: spin-right 20s linear infinite;
+      -ms-animation: spin-right 20s linear infinite;
+       -o-animation: spin-right 20s linear infinite;
+          animation: spin-right 20s linear infinite;
+}
+
+#jupiter {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#saturn {
+ border-radius: 100%;
+ position: absolute;
+}
+
+#saturn-orbit {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 676px;
+    height: 676px;
+    margin-top: -338px;
+    margin-left: -338px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 18s linear infinite;
+     -moz-animation: spin-right 18s linear infinite;
+      -ms-animation: spin-right 18s linear infinite;
+       -o-animation: spin-right 18s linear infinite;
+          animation: spin-right 18s linear infinite;
+}
+
+#jupiter-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 530px;
+    height: 530px;
+    margin-top: -265px;
+    margin-left: -265px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 15s linear infinite;
+     -moz-animation: spin-right 15s linear infinite;
+      -ms-animation: spin-right 15s linear infinite;
+       -o-animation: spin-right 15s linear infinite;
+          animation: spin-right 15s linear infinite;
+}
+
+#mars {
+    position: absolute;
+    border-radius: 100%;
+}
+
+#mars-orbit {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 11s linear infinite;
+     -moz-animation: spin-right 11s linear infinite;
+      -ms-animation: spin-right 11s linear infinite;
+       -o-animation: spin-right 11s linear infinite;
+          animation: spin-right 11s linear infinite;
+}
+
+html, body {
+    /* The universe takes up all available space */
+    width: 100%;
+    height: 100%;
+    
+    /* The universe is black */
+    background: black;
+}
+
+#venus {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#venus-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    margin-left: -120px;
+
+    border-width: 2px;
+    
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 8s linear infinite;
+     -moz-animation: spin-right 8s linear infinite;
+      -ms-animation: spin-right 8s linear infinite;
+       -o-animation: spin-right 8s linear infinite;
+          animation: spin-right s linear infinite;
+}
+
+#sun {
+    position: absolute;
+    /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+    top: 50%;
+    left: 50%;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 128px orange;
+    
+    /* Play with these numbers to see what it does */
+    height: 200px;
+    width: 200px;
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+#earth {
+    /* Style your earth */
+    position: absolute;
+    left: 50px;
+    border-radius: 50%;
+}
+
+#earth-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 366px;
+    height: 366px;
+    margin-top: -183px;
+    margin-left: -183px;
+
+    border-width: 2px;
+    
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+}
+
+#mercury {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#mercury-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 190px;
+    height: 190px;
+    margin-top: -95px;
+    margin-left: -95px;
+
+    border-width: 2px;
+    
+    border-color: black;
+    border-radius: 50%;
+ -webkit-animation: spin-right 5s linear infinite;
+     -moz-animation: spin-right 5s linear infinite;
+      -ms-animation: spin-right 5s linear infinite;
+       -o-animation: spin-right 5s linear infinite;
+          animation: spin-right 5s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
